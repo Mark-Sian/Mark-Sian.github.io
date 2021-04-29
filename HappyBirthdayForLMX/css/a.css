@@ -1,0 +1,9 @@
+.chao1:link{
+     color: rgb(238, 48, 197);  /* 未访问的链接 */
+}
+.chao1:visited{
+    color: black;
+}
+.chao1:hover{
+    color:rgb(238, 65, 34)
+}
