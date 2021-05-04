@@ -1,0 +1,19 @@
+html,body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,table,td,th,img,div,dl,dt,dd,input,select,form,fieldset{margin:auto;padding:0;}
+body{background-color:#99e6fd;color:#555;font-family:"Microsoft YaHei";font-size:24px;margin:0 auto;}
+.buttom_prev{
+    height:100px;;margin-right: 100px;color: #085308;font-size: 28px;
+}
+.buttom_prev input{width: 100%;    box-sizing: border-box;} 
+.buttom_next{
+    width:100px;height:100px;position:absolute;right:10px;color: #085308;font-size: 28px
+}
+.outline{
+    position:relative;
+    border: 2px solid #88C6E5;
+    overflow: hidden;
+    width: 1200px;
+    margin: 10px auto;
+}
+h1{
+    margin: 0 auto; text-align: center
+}
