@@ -1,85 +1,25 @@
-<!DOCTYPE HTML>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>生日倒计时</title>
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-    <style type="text/css">
-        @font-face {
-            font-family: digit;
-            src: url('digital-7_mono.ttf') format("truetype");
-        }
-    </style>
-    <link href="css/default.css" type="text/css" rel="stylesheet">
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/garden.js"></script>
-    <script type="text/javascript" src="js/functions.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-    <div id="mainDiv">
-        <div id="content">
-            <div id="code">
-                <span class="comments">5月16日，终于等到今天了</span>
-                <br />
-                <span class="comments">本来想选在农历的</span><br>
-                <span class="comments">但是那好像就在五一之后</span><br>
-                <span class="comments">不好太弄</span><br>
-                <span class="comments">你知道为什么在生日的时候吗</span><br>
-                <span class="comments">因为生日的只是针对你啊</span><br>
-                <spann class="comments">但是别的节日给谁过都行啊</spann>
-                <br>
-                <span class="comments">而目的也很明确吧</span><br>
-                <span class="comments">你随便猜猜就猜的出来</span><br>
-                <span class="comments">希望你看看吧</span><br>
-                <span class="comments">我都花这么多时间了. </span><br>、
-                <span class="comments">求求了(～￣▽￣)～ </span><br>
-                <spann class="comments"><a href="index/index.html">点此进入</a></spann>
-                <br>
-            </div>
-            <div id="loveHeart">
-                <canvas id="garden"></canvas>
-                <div id="words">
-                    <div id="messages">
-                        距离你的生日已经过了
-                        <div id="elapseClock"></div>
-                    </div>
-                    <div id="loveu">
-                        Happy Birthday!
-                        <br/>Love you forever and ever.
-                        <div class="signature">- you</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <script type="text/javascript">
-        var offsetX = $("#loveHeart").width() / 2;
-        var offsetY = $("#loveHeart").height() / 2 - 55;
-        var together = new Date();
-        together.setFullYear(2021, 4, 16);
-        together.setHours(0);
-        together.setMinutes(0);
-        together.setSeconds(0);
-        together.setMilliseconds(0);
-        if (!document.createElement('canvas').getContext) {
-            var msg = document.createElement("div");
-            msg.id = "errorMsg";
-            msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
-            document.body.appendChild(msg);
-            $("#code").css("display", "none")
-            $("#copyright").css("position", "absolute");
-            $("#copyright").css("bottom", "10px");
-            document.execCommand("stop");
-        } else {
-            setTimeout(function () {
-                startHeartAnimation();
-            }, 5000);
-            timeElapse(together);
-            setInterval(function () {
-                timeElapse(together);
-            }, 500);
-            adjustCodePosition();
-            $("#code").typewriter();
-        }
-    </script>
+    <div>9.21<br>好久都没有搞这个了 说实话 都有点生疏了 </div>
+    <div>有没有感觉最近老是听到你的名字 别人还老是用你恶心我-.- 我也很难受啊 </div>
+    <div>上次不是跟你说过原因了吧 就是被人翻我书呗=.= 贼烦 </div>
+    <div>算了 你就假装啥也不知道呗-.- 唉 跟别人关系太好也不太行啊-.-</div>
+    <br>
+    <br>
+    <div>还有现在... &nbsp  你是不是还在追星啊-.-</div>
+    <div>赶紧去读书呐</div>
+    <div>本来想送你只笔的</div>
+    <div>但是现在这种情况很难办啊</div>
+    <div>再说吧</div>
+    <br>
+    <br>
+    <div>以前你生日的网页源码：<a href="https://github.com/Mark-Sian/Mark-Sian.github.io">https://github.com/Mark-Sian/Mark-Sian.github.io</a></div>
 </body>
 </html>
